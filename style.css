@@ -1,0 +1,125 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css");
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.pA {
+    background-image: url('image/frame.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 1px 0 80px 0;
+}
+
+header {
+    margin: 0;
+    padding: 0;
+    background: #333333;
+}
+
+.title,
+.nav-bar {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.nav-bar .list .items {
+    margin: 0 5px;
+    display: inline;
+}
+
+.title {
+    padding-right: 45%;
+}
+
+.title h2 {
+    font-size: 2em;
+    padding-left: 20px;
+    text-transform: uppercase;
+    color: white;
+}
+
+.nav-bar .list .items .link {
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+}
+
+.nav-bar .list .items .link:hover {
+    text-decoration: none;
+    color: black;
+    background: #444444;
+    padding: 20px;
+}
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.pA {
+    text-align: center;
+    color: white;
+}
+
+.parA {
+    font-size: 2.5em;
+    padding-top: 100px;
+}
+
+.line {
+    margin: auto;
+    background: #333333;
+    width: 100px;
+    height: 10px;
+}
+
+.parB {
+    justify-content: center;
+    margin: 50px 400px 50px 400px;
+}
+
+button {
+    padding: 15px 30PX 15PX 30PX;
+    background-color: white;
+    color: #333333;
+    border: none;
+    border-radius: 50px;
+}
+
+button:hover {
+    padding: 15px 30PX 15PX 30PX;
+    color: white;
+    background-color: #333333;
+    border: none;
+    border-radius: 50px;
+}
+
+.iconA,
+.iconB {
+    display: inline-block;
+    text-align: center;
+    padding: 0 40px;
+}
+
+.content {
+    width: 900px;
+    margin: auto;
+    padding: 30px 0;
+}
+
+.content .bi {
+    font-size: 1.7em;
+}
+
+.content h3 {
+    font-size: 1.5em;
+}
+
+main .pB {
+    background-image: url('image/person.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+}
